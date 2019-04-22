@@ -36,10 +36,10 @@ $("#main_head").click(function() {
 })
 
 $(window).bind("load", function() {
-//    $.getJSON(perduction_url, function(data){
-//        advice = data["prophecies"]
-//        update_prediction (advice);
-//    });
+   $.getJSON(perduction_url, function(data){
+       advice = data["prophecies"]
+       update_prediction (advice);
+   });
     var date = new Date();
     $("#main_head").html('<h1>Что день ' + date.getDate() + '.' + (date.getMonth() + 1) + '.' +  date.getFullYear() + ' для Вас готовит!</h1>');
 })
