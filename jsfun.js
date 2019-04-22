@@ -1,4 +1,4 @@
-advice_url = "https://api.adviceslip.com/advice"
+// advice_url = "https://api.adviceslip.com/advice"
 perduction_url = "http://sf-pyw.mosyag.in/m04/api/forecasts"
 // perduction_url = "https://nameless-castle-90009.herokuapp.com/api/forecasts"
 
@@ -41,5 +41,5 @@ $(window).bind("load", function() {
        update_prediction (advice);
    });
     var date = new Date();
-    $("#main_head").html('<h1>Что день ' + date.getDate() + '.' + (date.getMonth() + 1) + '.' +  date.getFullYear() + ' для Вас готовит!</h1>');
+    $("#main_head").html('<h1>Что день ' + date.getDate() + '.' + (date.getMonth() + 1) + '.' +  date.getFullYear() + '  готовит!</h1>');
 })
