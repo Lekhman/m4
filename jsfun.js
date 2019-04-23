@@ -2,7 +2,7 @@
 perduction_url = "https://sf-pyw.mosyag.in/m04/api/forecasts"
 // perduction_url = "https://nameless-castle-90009.herokuapp.com/api/forecasts"
 
-$("#ma_head")one.click(function() {
+$("#ma_head").click(function() {
     $.getJSON(advice_url, function(data){
         advice = data["slip"]["advice"]
         secret_mess (advice);
