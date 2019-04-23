@@ -1,4 +1,4 @@
-advice_url = "https://api.adviceslip.com/advice"
+// advice_url = "https://api.adviceslip.com/advice"
 perduction_url = "https://sf-pyw.mosyag.in/m04/api/forecasts"
 // perduction_url = "https://nameless-castle-90009.herokuapp.com/api/forecasts"
 
